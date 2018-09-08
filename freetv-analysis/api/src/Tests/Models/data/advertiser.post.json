@@ -1,0 +1,13 @@
+{
+  "advertiserCode" : "SHOULDNOTAPPEARINDB",
+  "advertiserName" : "Test",
+  "defaultCategory" : "AT",
+  "abn" : "123456789",
+  "allowLateSubmissions" :  true,
+  "authorisedCharity" : false,
+  "charityLastChecked" : "2015-08-09 00:00:00.000",
+  "cadNotes" : "cad notes",
+  "accountNotes" : "account notes",
+  "active" : true,
+  "approved" : true
+}

@@ -1,0 +1,7 @@
+{
+  "advertiserCode" : "AA",
+  "description" : "This shouldn't appear in the database.",
+  "group" : "",
+  "active" : true
+
+}

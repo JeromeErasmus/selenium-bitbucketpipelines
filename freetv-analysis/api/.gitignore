@@ -1,0 +1,13 @@
+vendor/
+.idea/
+public/*.log
+nbproject/
+components/
+public/Uploads/
+cacerts.crt
+FREETV_2362002.pem
+mailoutput/
+logs/
+
+# Untrack everything in config except for config.php and the permissions files
+src/Config/*.yml

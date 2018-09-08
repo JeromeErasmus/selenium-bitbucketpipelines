@@ -1,0 +1,10 @@
+{
+  "tvcTypeId" : 1,
+  "tvcToAirId" : 2,
+  "isInformercial" : true,
+  "isTvc" : false,
+  "cost" : 120.00,
+  "comments" : "Create tvc cost unit test",
+  "chargeCode" : "EK",
+  "chargeCodeCharity" : "RED"
+}

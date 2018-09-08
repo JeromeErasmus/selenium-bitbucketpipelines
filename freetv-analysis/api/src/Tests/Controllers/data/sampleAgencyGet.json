@@ -1,0 +1,41 @@
+{
+  "agencyId": "24633",
+  "agencyCode": "TEST123",
+  "agencyName": "4mation",
+  "billingSubGroup": "jamaica sub group",
+  "agencyApproved": "1",
+  "primaryContactName": "steve smith",
+  "primaryContactEmail": "smith@com.com",
+  "primaryContactNotifications": "All Emails",
+  "address1": "1 main street",
+  "address2": "2 second street",
+  "city": "Memphis",
+  "state": "NSW",
+  "postcode": "2000",
+  "phoneNumber": "0423874872",
+  "faxNumber": "2234543",
+  "mobileNumber": "111111111111",
+  "abn": "11111111111",
+  "accountsContact": "account name",
+  "accountsEmailAddress": "acc@email",
+  "accountsPhoneNumber": "123123",
+  "billingCode": "test123",
+  "creditLimit": "15000.0",
+  "accountType": "COD",
+  "purchaseOrder": "Mandatory",
+  "addTaxable": "1",
+  "overseasGSTStatusApproved": "y",
+  "notes": null,
+  "active": "0",
+  "lastApplicationDate": "0",
+  "agencyGroup": {
+    "id": "3",
+    "name": "Station"
+  },
+  "stopCredit": {
+    "id": "2",
+    "number": "2",
+    "reason": "C/C or DD Details need to be verified"
+  },
+  "country": "Australia"
+}

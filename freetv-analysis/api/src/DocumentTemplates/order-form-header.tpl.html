@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        @page {
+            margin-top: 0cm;
+            margin-bottom: 0cm;
+            margin-left: 1.175cm;
+            margin-right: 1.175cm;
+        }
+        
+        html, body {
+            font-family: Sans-Serif;
+            font-size: 11px;
+        }
+
+        body {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        .header {
+            padding-top: 50px;
+        }
+        
+        .row {
+            width: 100%;
+            padding: 0; margin: 0;
+            position: relative;
+        }
+
+        .row:after {
+            content:"";
+            display:block;
+            height: 0;
+            padding: 0;
+            margin: 0;
+            clear:both;
+        }
+
+        .col {
+            float: left;
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+        
+        .col-right{
+            float: right;
+            margin: 0 0 0 1400px;
+            padding: 0;
+        }
+
+        .col-half {
+            width: 50%;
+        }
+
+        .col-third {
+            width: 33%;
+        }
+
+        .col-30 {
+            width: 30%;
+        }
+
+        .col-70 {
+            width: 70%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: none;
+
+        }
+        
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px 20px;
+        }
+
+        th {
+            font-weight: 400;
+        }
+
+        table td.no-border {
+            border: none;
+        }
+
+
+        .center {
+            text-align: center;
+        }
+        
+        .tax-box {
+            width: 100%;
+            margin: 0;
+            padding: 2.5%;
+            border: 1px solid black;
+            font-weight: 800;
+            font-size: 24px;
+        }
+
+        .customer-address {
+            width: 80%;
+            margin: 30px 0 0 20%;
+            padding: 0;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .left {
+            text-align: left;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .no-top-border {
+            border-top: none;
+        }
+        
+        .no-bottom-border {
+            border-bottom: none;
+        }
+        
+        .no-right-border {
+            border-right: none;
+        }
+
+        .no-left-border {
+            border-left:none;
+        }
+
+        .pr20 {
+            padding-right: 20px;
+        }
+
+        .pl20 {
+            padding-left: 20px;
+        }
+
+        .pt10 {
+            padding-top: 10px;
+        }
+
+        .paid {
+            font-weight: 800;
+            font-size: 100px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="row">
+            <div class="col-third col" style="float: left;">
+                <img src="{%logo%}">
+            </div>
+            <div style="padding-top:25px; float: left;" class="col-half col-right center">
+                <strong style="font-size: xx-large; font-family: courier_2_electric_boogaloo;">Order</strong>
+            </div>
+        </div>
+        <div class="row" style="height: 10px; max-height: 10px; min-height: 10px;">
+
+            <div class="col-half col">
+                <div class="customer-address">
+                    {%customer_name%}<br>
+                    {%customer_address_1%}<br>
+                    {%customer_address_2%}
+                </div>
+            </div>
+            <div class="col-30 col paid right" style="margin-left:200px; margin-top:10px; width:20px;">
+                {%paid%}
+            </div>
+        </div>
+    </div>

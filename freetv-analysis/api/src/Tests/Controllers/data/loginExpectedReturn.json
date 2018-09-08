@@ -1,0 +1,81 @@
+{
+  "userSysid": "7203",
+  "userId": "adam.synnott",
+  "userFirstName": "Adam",
+  "userLastName": "Synnott",
+  "userEmail": "adam.synnott@4mation.com.au",
+  "userActive": null,
+  "userJfiId": null,
+  "userAllowUpdates": "1",
+  "userPermissionSet": {
+    "jobs": {
+      "allowJobUpdates": true
+    },
+    "tvCommercials": {
+      "incoming": {
+        "assignCADOverride": true,
+        "poRequired": true,
+        "paymentSighted": true,
+        "stopCredit": true,
+        "advertiserCategory": true
+      },
+      "enquiry": true
+    },
+    "invoicing": {
+      "createEditBatch": true,
+      "creditCard": true,
+      "acceptBatch": true,
+      "printOrders": true,
+      "enquiry": true,
+      "restoreBatch": true,
+      "batchListing": true
+    },
+    "reports": {
+      "dailyActivity": true,
+      "dailyActivityInternal": true,
+      "advertiser": true,
+      "agency": true,
+      "agencyList": true,
+      "finance": true,
+      "aspectRatio": true
+    },
+    "maintenance": {
+      "advertiser": {
+        "allowLateSubmissions": true,
+        "authoriseCharity": true,
+        "createWeb": true
+      },
+      "agency": {
+        "creditLimit": true,
+        "accountType": true,
+        "poRequired": true,
+        "stopCredit": true,
+        "allowLateSubmissions": true,
+        "createWeb": true
+      },
+      "chargeCodes": true,
+      "content": true,
+      "advertiserCategory": true,
+      "requirements": true,
+      "archiveTVCs": true,
+      "users": true,
+      "dataIntegrity": true,
+      "webUtilities": {
+        "deleteJob": true,
+        "resetJob": true,
+        "convertJob": true,
+        "mergeAdvertisers": true,
+        "mergeAgencies": true
+      }
+    },
+    "tvcExtract": {
+      "Activate": true,
+      "manualExport": true
+    }
+  },
+  "userRole": {
+    "roleId": "1",
+    "roleName": "CAD",
+    "roleSlug": "/joblist/"
+  }
+}

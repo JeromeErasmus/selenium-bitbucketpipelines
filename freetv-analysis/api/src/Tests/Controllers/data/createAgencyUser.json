@@ -1,0 +1,15 @@
+{
+  "agencyId": 11,
+  "email": "user@freetv.com.au",
+  "firstName": "User",
+  "lastName": "Name",
+  "password": "password",
+  "areaCodePhone": "02",
+  "phone": "99658241",
+  "mobile": "0405887441",
+  "areaCodeFax": "02",
+  "fax": "99856325",
+  "isNetworkManager": true,
+  "isNetworkUser": false,
+  "isActive" : false
+}

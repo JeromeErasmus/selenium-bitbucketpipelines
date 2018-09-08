@@ -1,0 +1,41 @@
+<table style="height: 100%; width:100%;  padding:0; margin:0; border:1px solid;">
+    <thead>
+        <tr class="header-grey-background">
+            <th colspan="2" class="no-left-border">PURCHASE ORDER</th>
+            <th colspan="2">CUSTOMER CODE</th>
+            <th colspan="1">DATE</th>
+            <th colspan="1">{%due_date_header%}</th>
+            <th colspan="2" class="no-right-border">INVOICE NUMBER</th>
+        </tr>
+        <tr class="header-grey-background">
+            <th colspan="2" class="no-left-border">{%purchase_order%}</th>
+            <th colspan="2">{%customer_code%}</th>
+            <th colspan="1">{%invoice_date%}</th>
+            <th colspan="1">{%due_date%}</th>
+            <th colspan="2" class="no-right-border">{%invoice_number%}</th>
+        </tr>
+        <tr class="header-grey-background">
+            <th colspan="4" class="no-left-border bottom-border-double">OUR REF  /  YOUR TVC KEY</th>
+            <th colspan="1" class="bottom-border-double">$ EX GST</th>
+            <th colspan="1" class="bottom-border-double">$ GST</th>
+            <th colspan="2" class="no-right-border bottom-border-double">$ {%total_column_name%}</th>
+        </tr>
+    </thead>
+    <tbody>
+    {%template_items%}
+    </tbody>
+</table>
+<table>
+    <tbody>
+    <tr>
+        <td colspan="4" class="no-border"><strong>TERMS: {%account_terms%}</strong></td>
+        <td colspan="2" class="left no-top-border  no-right-border pl20">GST TOTAL</td>
+        <td colspan="2" class="right no-top-border no-left-border pr20">{%gst_total%}</td>
+    </tr>
+    <tr>
+        <td colspan="4" class="no-border"></td>
+        <td colspan="2" class="left no-right-border pl20">{%invoice_header%}</td>
+        <td colspan="2" class="right no-left-border pr20">{%grand_total%}</td>
+    </tr>
+    <tbody>
+</table>

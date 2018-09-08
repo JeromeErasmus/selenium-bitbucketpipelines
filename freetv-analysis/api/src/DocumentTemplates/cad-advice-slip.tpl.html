@@ -1,0 +1,49 @@
+
+<style type="text/css">
+    td.printCode, span.printCode, p.printCode {
+        font-family:"courier_2_electric_boogaloo";
+        font-size:12pt;
+    }
+    .style20 {
+        font-weight: bold;
+        color: #000000;
+        font-size: 10pt;
+    }
+</style>
+<!-- saved from url=(0073)http://cad.freetv.com.au/live/event_60_CADReport.php?xReferenceNo=1096677 -->
+
+<p class="FieldTextRight">Job Reference Number: <span class="FieldBoldText">{%referenceNo%}</span></p>
+<p class="lupDesc">  CAD Numbers are issued by Commercials Advice (CAD) only on the understanding that this commercial is true and accurate, visually and aurally, including all statements and representations, express and implied.</p>
+<p class="style2">CAD must be notified immediately of any alteration made to this commercial after the Date of Classification as any subsequent alteration or change of Key No may render the CAD Number invalid.</p>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="15%" class="style3 FieldTextRight"><strong>Agency:</strong></td>
+            <td width="35%" class="style3"><span class="printCode">{%agencyName%}</span> </td>
+            <td width="50%"><span class="FieldTextRight style3"></span><span class="printCode"></span></td>
+        </tr>
+        <tr>
+            <td width="15%" class="style3 FieldTextRight"><strong>Address:</strong></td>
+            <td width="35%" class="style3"><span class="printCode">{%address%}</span> </td>
+            <td width="50%" class="FieldText style3"><span class="style3 FieldText"><strong>Date of classification: </strong></span><span class="printCode">{%cadAssignedDate%}</span></td>
+        </tr>
+        <tr>
+            <td width="15%" class="style3 FieldTextRight"><strong>Advertiser:</strong></td>
+            <td width="35%" class="style3"><span class="printCode">{%advertiserName%}</span> </td>
+            <td width="50%"><span class="style3 FieldTextRight"><strong>Attention:</strong></span></td>
+        </tr>
+    </tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody>
+    <tr>
+        <td colspan="5"><hr></td>
+    </tr>
+    {%template_items%}
+    <tr>
+        <td colspan="5"><hr></td>
+    </tr>
+</table>
+
+<p class="printCode">{%customContent%}</p>

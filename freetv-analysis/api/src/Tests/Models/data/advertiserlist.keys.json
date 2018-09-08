@@ -1,0 +1,14 @@
+[
+  "advertiserId",
+  "advertiserCode",
+  "advertiserName",
+  "defaultCategory",
+  "abn",
+  "allowLateSubmissions",
+  "authorisedCharity",
+  "charityLastChecked",
+  "hasCADNotes",
+  "hasAccountNotes",
+  "active",
+  "approved"
+]

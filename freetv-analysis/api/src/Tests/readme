@@ -1,0 +1,3 @@
+To execute the tests, run this command:
+
+export ENVIRONMENT=test && phpunit src/tests

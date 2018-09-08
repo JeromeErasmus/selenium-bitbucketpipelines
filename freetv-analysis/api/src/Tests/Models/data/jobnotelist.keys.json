@@ -1,0 +1,7 @@
+[
+  "jobNoteId",
+  "jobId",
+  "createdAt",
+  "jobNote",
+  "user"
+]

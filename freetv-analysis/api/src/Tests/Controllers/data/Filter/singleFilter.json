@@ -1,0 +1,21 @@
+{
+  "filterName": "myFavFilter",
+  "createdAt" : "2015-06-30 11:52:11.117",
+  "filterDetails":
+    {
+      "jobTypeId": 4,
+      "revision": 1,
+      "referenceNumber": null,
+      "jobStatus": null,
+      "keyNumber": null,
+      "CADNumber": 123456,
+      "description": null,
+      "agencyName": "Free Media Co.",
+      "advertiserName": null,
+      "assignedTo": null,
+      "deliveryMethod": "DVD",
+      "paymentType": null,
+      "dueAfter": "2015-06-01",
+      "dueBefore": "2015-09-04"
+    }
+}

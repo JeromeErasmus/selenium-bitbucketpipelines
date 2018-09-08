@@ -1,0 +1,10 @@
+{
+    "tvcTypeId": "3",
+    "tvcToAirId": "4",
+    "isInformercial": false,
+    "isTvc": true,
+    "cost": "564444.0000",
+    "comments": "Patched tvc cost unit test",
+    "chargeCode": "YEL",
+    "chargeCodeCharity": "BLU"
+}

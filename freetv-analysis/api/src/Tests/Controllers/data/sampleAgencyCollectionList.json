@@ -1,0 +1,54 @@
+[
+  {
+    "userSysid": "214",
+    "userId": "79",
+    "agencyId": "94",
+    "userEmail": "aana@jmrmedia.com.au",
+    "userFirstName": "Faana",
+    "userLastName": "Saana",
+    "userPhoneAreaCode": " ",
+    "userPhone": " ",
+    "userMobile": " ",
+    "userFaxAreaCode": " ",
+    "userFax": " ",
+    "userIsNetworkManager": "0",
+    "userIsNetworkUser": "0",
+    "userIsActive" : true,
+    "agencyCode" : "AANA"
+  },
+  {
+    "userSysid": "215",
+    "userId": "83",
+    "agencyId": "94",
+    "userEmail": "cs@netstarter.com.au",
+    "userFirstName": "Craig",
+    "userLastName": "Shotland",
+    "userPhoneAreaCode": "02",
+    "userPhone": "9273 7777",
+    "userMobile": "1234 1234 01",
+    "userFaxAreaCode": "02",
+    "userFax": "9273 7777",
+    "userIsNetworkManager": "0",
+    "userIsNetworkUser": "0",
+    "userIsActive" : true,
+    "agencyCode" : "AANA"
+  },
+  {
+    "userSysid": "213",
+    "userId": "3503",
+    "agencyId": "94",
+    "userEmail": "xinkejun@hotmail.com",
+    "userFirstName": "Kendrick",
+    "userLastName": "Xin",
+    "userPhoneAreaCode": "64",
+    "userPhone": "34563456",
+    "userMobile": "435634",
+    "userFaxAreaCode": "34",
+    "userFax": "3456345",
+    "userIsNetworkManager": "0",
+    "userIsNetworkUser": "0",
+    "userIsActive" : false,
+    "agencyCode" : "AANA"
+
+  }
+]

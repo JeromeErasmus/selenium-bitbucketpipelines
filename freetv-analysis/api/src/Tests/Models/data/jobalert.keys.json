@@ -1,0 +1,8 @@
+[
+  "id",
+  "alertMessage",
+  "alertDestinationUserId",
+  "alertSourceUserId",
+  "alertReadStatus",
+  "alertJobId"
+]

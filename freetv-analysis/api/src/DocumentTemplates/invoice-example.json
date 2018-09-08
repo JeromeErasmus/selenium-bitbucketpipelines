@@ -1,0 +1,26 @@
+{
+  "jobId": "1041243",
+  "invoice_tax_type": "TAX INVOICE",
+  "customer_name": "Agency B",
+  "customer_address_1": "121 Max Street",
+  "customer_address_2": "Max Town, NSW 2000",
+  "paid": "PAID",
+  "description": "A TVC for a Company",
+  "customer_code": "MAX1234",
+  "invoice_date": "23\/04\/2016",
+  "invoice_number": "1234567890",
+  "items": [{
+    "item_description": "30 second cut for TVC",
+    "item_qty": "1",
+    "item_amount_ex_gst": "200.00",
+    "item_amount_inc_gst": "220.00"
+  }, {
+    "item_description": "60 second cut for TVC",
+    "item_qty": "1",
+    "item_amount_ex_gst": "200.00",
+    "item_amount_inc_gst": "220.00"
+  }],
+  "account_type": "COD",
+  "gst_total": "20.00",
+  "grand_total": "220.00"
+}
