@@ -1,8 +1,0 @@
-{
-  "advertiserName" : "Test Advertiser",
-  "defaultCategory" : "UP",
-  "abn" : "112233445",
-  "authorisedCharity" : false,
-  "charityLastChecked" : "2015-09-09 00:00:00.000",
-  "cadNotes" : "This is the updated advertiser list. It shouldn't appear in the db either."
-}
